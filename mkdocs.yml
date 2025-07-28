@@ -14,27 +14,31 @@ theme:
 
 nav:
   - Home: index.md
-  - TSG:
-    - Genetec:
-      - Server setup: genetec/server_setup.md
-      - Client setup: genetec/client_setup.md
-      - How to add a camera: genetec/add_a_camera.md
-      - Camera controls: genetec/camera_controls.md
-    - Axis:
-      - Assign an IP-adres: axis/assign_IP.md
-      - Update camera: axis/update_camera.md
-      - Add new user: axis/add_user.md
-    - Mobiqam: mobiqam.md
-    - Windows setup: windows_setup.md
+  - Genetec:
+    - Server setup: genetec/server_setup.md
+    - Client setup: genetec/client_setup.md
+    - How to add a camera: genetec/add_a_camera.md
+    - Camera controls: genetec/camera_controls.md
+  - Axis:
+    - Assign an IP-adres: axis/assign_IP.md
+    - Update camera: axis/update_camera.md
+    - Add new user: axis/add_user.md
+  - Mobiqam: mobiqam.md
+  - Internal tools:
     - SafeLaunch:
-      - How to prep: how_to_prep.md
-      - Install on location: install_on_location.md
-    - Switches:
-      - Edgeswitch:
-        - Troubleshooting commands: troubleshooting_commands_ES.md
-      - FS-switch:
-        - Troubleshooting commands: troubleshooting_commands_FS.md
-    - MikroTik:
-      - Event setup: event_setup.md
+      - How to prep: SafeLaunch/how_to_prep.md
+      - Install on location: SafeLaunch?install_on_location.md
+    - SafeSign:
+      - How to prep: SafeSign/how_to_prep.md
+
+
+  - Switches:
+    - Edgeswitch:
+      - Troubleshooting commands: troubleshooting_commands_ES.md
+    - FS-switch:
+      - Troubleshooting commands: troubleshooting_commands_FS.md
+  - MikroTik:
+    - Event setup: event_setup.md
   - Tools:
-    - fping: fping.md
+    - fping: tools/fping.md
+    - Windows setup: tools/windows_setup.md
