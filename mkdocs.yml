@@ -20,14 +20,16 @@ nav:
     - How to add a camera: genetec/add_a_camera.md
     - Camera controls: genetec/camera_controls.md
   - Axis:
-    - Assign an IP-adres: axis/assign_IP.md
-    - Update camera: axis/update_camera.md
-    - Add new user: axis/add_user.md
-  - Mobiqam: mobiqam.md
+    - Assign an IP-adres: axis/ip_settings/assign_IP.md
+    - Update camera: axis/update_os/update_camera.md
+    - Add new user: axis/new_user/add_user.md
+    - Setup a radar: axis/radar_setup/radar_setup.md
+  - Mobiqam: 
+    - Troubleshooting: mobiqam/troubleshooting/troubleshooting.md
   - Internal tools:
     - SafeLaunch:
       - How to prep: SafeLaunch/how_to_prep.md
-      - Install on location: SafeLaunch?install_on_location.md
+      - Install on location: SafeLaunch/install_on_location.md
     - SafeSign:
       - How to prep: SafeSign/how_to_prep.md
 

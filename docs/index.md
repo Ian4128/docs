@@ -2,16 +2,23 @@
 
 Personal vault for all documentation
 
-## Commands
+## Proxmox setup
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Ubuntu
+#### Instances
+- Mkdocs
+- Docker
 
-## Project layout
+### Windows 11
+Used to test stuff like scripts and tools.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## MkDocs
+Used to keep documentation, contents can later be added to confluence.
+files are found in `/home/uby/docs`.
+
+Service can be started with
+```
+mkdocs serve -a 192.168.250.121:8000
+```
+
